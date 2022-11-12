@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1668287540 source:c:\users\ragia\desktop\assignments\c\lab4-8\main.c
+	<stdio.h>
+	<stdlib.h>
+

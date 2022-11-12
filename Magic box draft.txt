@@ -1,0 +1,9 @@
+MAGIC BOX
+
+imagine a table 3 rows and 3 columns
+
+>> take I/P > generate size
+
+max of cells > size*size
+
+a7a

@@ -1,0 +1,10 @@
+press enter>> go to middle of second line (start)
+create array of char[50] >> static
+ >> highlight background and set color of text to black
+
+loop getchar to add letter to arr[i]
+
+
+>> press home: go to start
+>> press end: go to start+i+1
+>> press enter>> got to start and loop char[50] and 0s
