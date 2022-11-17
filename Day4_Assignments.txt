@@ -4,22 +4,23 @@ Day 4:
 Answer the following questions:
 --------------------------------
 1) C Program to swap 2 integer values. (Swap function, calling by address)
-
+DONE
 2) Receive character by character and then place the string terminator upon pressing enter, then display the string.
-
+DONE
 3) C Program to take char and displays if it is "Normal or Extended key" along with its Ascii value.
-
+DONE
 4) C Program to take firstName and lastName from user, then displays fullName.
-
+>> worked as program not working as function***
 5) C Program to Find the Frequency of Characters in a String
-
+DONE
 6) C Program to Copy String Without Using strcpy()
-
+DONE
 7) C Program to Find the Length of a String without Using strlen()
-
+DONE
 8) C Program to Remove all Characters in a String Except Alphabet
-
+UNEXPECTED BEHAVIOUR
 9) Highlight Menu: New Colored Menu "with Arrows"
+:333
 
 
 
