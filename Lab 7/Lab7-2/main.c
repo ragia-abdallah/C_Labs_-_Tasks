@@ -21,7 +21,7 @@ int main()
 
     for (i=0; i<batch; i++){
 
-            addEmp(*employees, i);
+            addEmp(employees, i);
 
     }
 
@@ -30,13 +30,13 @@ int main()
     return 0;
 }
 
-void addEmp(emp*, int i)
+void addEmp(emp* emp, int i)
 {
     emp[i].id=i+1;
     printf("\nEnter Employee Name: ");
-    emp[i].name = fgets();
+    fgets(emp[i].name, 30, stdin);
     printf("\nEnter Employee's Title: ");
-    emp[i].title = fgets();
+    fgets(emp[i].title, 20, stdin);
     printf("\nEnter Employee's Salary: ");
     scanf("%d",&emp[i].salary);
 
