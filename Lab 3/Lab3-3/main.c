@@ -24,13 +24,13 @@ int main()
     else
     {
         row = 2;
-        col = (size/2)+1;
+        col = (size/2);
         max = size * size;
 
         do
         {
             gotoxy(col, row);
-            printf("  %d  ",entry);
+            printf("%d",entry);
 
             delay(1);
 
@@ -46,7 +46,7 @@ int main()
                 }
                 if (col == 0)
                 {
-                    col = size+1;
+                    col = size;
                 }
                 else
                 {
@@ -63,8 +63,10 @@ int main()
                 else
                 {
                     row++;
+
                 }
 
+col--;
 
             }
 

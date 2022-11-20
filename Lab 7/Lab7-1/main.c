@@ -10,14 +10,15 @@ int main()
 
 
     int* ptr=(int*) malloc (sizeof(int)*size);
+    printf("Gimme 5 numbers:\n");
 
     int i=0;
     for (i=0;i<size;i++){
         //printf("%d:",(i+1));
-        scanf("%d";&ptr+i));
+        scanf("%d",ptr+i);
     }
     for (i=0;i<size;i++){
-        printf("%d: %d",(i+1),ptr[i]);
+        printf("\n%d: %d",(i+1),ptr[i]);
     }
 
 
