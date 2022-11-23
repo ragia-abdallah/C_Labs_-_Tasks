@@ -1,0 +1,11 @@
+esc = 27
+up = 72
+down = 80
+right = 77
+left = 75
+enter = 13
+home = 71
+end = 79
+pgup = 73
+pgdn = 81
+delete = 83

@@ -3,8 +3,8 @@
 
 int main()
 {
-    char original[100];
-    char redacted[100];
+    char original[500];
+    char redacted[500];
 
     int i=0;
     int j=0;
