@@ -1,10 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#define x 10
+#define y 100
 int main()
 {
-    char src[5]="s!", dst[20]="Hello World";
+    char src[x], dst[y];
     int i=0, j=0;
+    printf("Enter sentence: ");
+    fgets(dst,y,stdin);
+    fflush(stdin);
+    printf("Enter extention: ");
+    fgets(src,x,stdin);
 
     do
     {
